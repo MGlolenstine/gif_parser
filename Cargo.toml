@@ -1,0 +1,8 @@
+[package]
+name = "gif_parser"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bypar = { git = "https://gitlab.mglolenstine.xyz/MGlolenstine/bypar.git", version = "0.1.0", branch = "traits" }
+bypar_derive = { git = "https://gitlab.mglolenstine.xyz/MGlolenstine/bypar_derive.git", version = "0.1.0", branch = "switch_to_traits" }

@@ -1,0 +1,6 @@
+   Compiling gif_parser v0.1.0 (/home/arch/tmp/other/gif_parser)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.27s
+     Running `target/debug/gif_parser`
+thread 'main' panicked at /home/arch/.cargo/git/checkouts/bypar-f262559fdcbee1bd/a244d67/src/no_std_sized_vec.rs:125:21:
+called `Result::unwrap()` on an `Err` value: CapacityError: insufficient capacity
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
